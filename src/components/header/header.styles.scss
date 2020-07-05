@@ -9,6 +9,15 @@
     height: 100%;
     width: 70px;
     padding: 25px;
+
+    .logo .text{
+      visibility: hidden;
+    }
+
+    .logo:hover .text{
+      cursor: pointer;
+      visibility: visible;
+    }
   }
 
   .options {
